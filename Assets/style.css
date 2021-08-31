@@ -1,3 +1,4 @@
+/* core info */
 * {
     background-color: white;
 }
@@ -28,8 +29,11 @@ main {
 p {
     background-color: var(--text-background-color);
     margin: 1% 0%;
+    border-radius: var(--border-radius);
+    padding: 15px;
 }
 
+/* side bar for scrolling and navigating */
 aside {
     display: inline-block;
     flex-direction: column;
@@ -46,7 +50,7 @@ aside {
     bottom: 0;
 }
 
-/* Logo */
+/* name and photo */
 mark {
     background-color: var(--section-background-color);
 }
@@ -71,6 +75,13 @@ aside img {
 }
 
 /* Navigation */
+nav {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
 aside nav ul li, aside nav ul li a {
     background-color: var(--section-background-color);
     color: var(--text-color);
@@ -86,13 +97,6 @@ aside nav ul {
     text-align: center;
     height: 75%;
 
-}
-
-nav {
-    display: inline-flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
 }
 
 /* Sections */
@@ -123,36 +127,6 @@ section {
     
 }
 
-.my-work .css-snippets {
-    width: 60%;
-    display: inline-flex;
-    flex-direction: column;
-    text-align: center;
-    border: 2px dashed var(--border-color);
-    border-radius: var(--border-radius);
-    padding: 1%;
-    margin: 1%;
-}
-
-.my-work div {
-    width: 40%;
-    display: inline-flex;
-    flex-direction: column;
-    text-align: center;
-    border: 2px dashed var(--border-color);
-    border-radius: var(--border-radius);
-    padding: 1%;
-    margin: 1%;
-}
-
-.my-work div img {
-    width: 100%;
-}
-#card {
-    border-radius: var(--border-radius);
-    padding: 15px;
-}
-
 .my-work-headings {
     background-color: var(--section-background-color);
     padding: 5px;
@@ -166,21 +140,45 @@ section {
     color: #ADEFD1FF;
 }
 
-.my-work img {
-    border-radius: var(--border-radius);
-}
-/* About Me */
-.about-me div {
-    width: 100%;
+.my-work .css-snippets {
+    width: 60%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
     border: 2px dashed var(--border-color);
     border-radius: var(--border-radius);
-    padding: 0px 1%;
+    padding: 1%;
+    margin: 1%;
+}
+
+.my-work div {
+    width: 30%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px dashed var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 1%;
+    margin: 1%;
+}
+
+.my-work div img {
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+/* About Me */
+.about-me div {
+    width: 98%;
+    margin: 1%;
+    border: 2px dashed var(--border-color);
+    border-radius: var(--border-radius);
 }
 
 .about-me p {
     text-align: center;
     width: auto;
-    padding: 15px;
+    margin: 1%;
     border-radius: var(--border-radius);
     font-size: 24px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -189,6 +187,7 @@ section {
 
 /* contact me */
 .contact-me {
+    display: inline-flex;
     height: auto;
     padding: 0 0 20px 0;
 }
@@ -199,11 +198,12 @@ section {
 }
 
 .contact-me ul{
-    width: 100%;
+    width: 98%;
     display: inline-flex;
     justify-content: space-evenly;
     list-style: disc;
-    padding: 20px;
+    margin: 1%;
+    padding: 1% 0 1% 0;
     border: 2px dashed var(--border-color);
     background-color: white;
     border-radius: var(--border-radius);
