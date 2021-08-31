@@ -1,9 +1,8 @@
 /* core info */
-* {
+/* * {
     background-color: white;
-}
-
-html { 
+} */
+/* html { 
     height: 100%;
     position: relative;
 }
@@ -11,7 +10,7 @@ html {
 body {
     height: 100%;
 }
-
+/*  */
 :root {
     --section-background-color: #00203FFF;
     --text-background-color: #ADEFD1FF;
@@ -38,16 +37,16 @@ aside {
     display: inline-block;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: var(--section-background-color);
     border: 0px solid var(--section-background-color);
     align-content: center;
     justify-content: space-evenly;
     width: 15%;
     overflow: hidden;
-    background-color: var(--section-background-color);
     position: fixed;
     top: 0; 
     bottom: 0;
+    min-height: 100%;
+    background-color: var(--section-background-color);
 }
 
 /* name and photo */
@@ -225,6 +224,7 @@ section {
         position: fixed;
         top: 0; 
         bottom: 0px;
+        height: 100%;
     }
 
     /* my work */

@@ -56,33 +56,33 @@ This homework is graded based on the following criteria:
 
 ### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the above acceptance criteria.
+* Satisfies all of the above acceptance criteria. !!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ### Deployment: 32%
 
-* Application deployed at live URL.
+* Application deployed at live URL.                                                                                                                                     <!--done-->
 
-* Application loads with no errors.
+* Application loads with no errors.                                                                                                                                     <!--done-->
 
-* Application GitHub URL submitted.
+* Application GitHub URL submitted.!!!!!!!!!!!!!!!!!!
 
-* GitHub repository contains application code.
+* GitHub repository contains application code.                                                                                                                          <!--done-->
 
 ### Application Quality: 15%
 
-* Application resembles the mock-up functionality provided in the homework instructions.
+* Application resembles the mock-up functionality provided in the homework instructions.                                                                                <!--done but want to make sidebar match demo more-->
 
 ### Repository Quality: 13%
 
-* Repository has a unique name.
+* Repository has a unique name.                                                                                                                                         <!--done-->
 
-* Repository follows best practices for file structure and naming conventions.
+* Repository follows best practices for file structure and naming conventions.                                                                                          <!--done-->
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.                                                                <!--done-->
 
-* Repository contains multiple descriptive commit messages.
+* Repository contains multiple descriptive commit messages.                                                                                                             <!--done-->
 
-* Repository contains quality readme with description, screenshot, link to deployed application.
+* Repository contains quality readme with description, screenshot, link to deployed application.!!!!!!!!!!!!!!!!
 
 ## Review
 
