@@ -1,0 +1,250 @@
+* {
+    background-color: grey;
+}
+
+html { 
+    height: 100%;
+    position: relative;
+}
+
+body {
+    height: 100%;
+}
+
+:root {
+    --section-background-color: white;
+    --border-radius: 20px;
+}
+
+main {
+    display: inline-block;
+    width: 85%;
+    float: right;
+}
+
+aside {
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--section-background-color);
+    border: 0px solid var(--section-background-color);
+    align-content: center;
+    justify-content: space-evenly;
+    width: 15%;
+    overflow: hidden;
+    background-color: var(--section-background-color);
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+}
+
+/* Logo */
+mark {
+    background-color: white;
+}
+
+aside h1 {
+    background-color: var(--section-background-color);
+    font-size: 32px;
+    height: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;    
+    text-align: center;
+}
+
+aside img {
+    display: inline-block;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+/* Navigation */
+aside nav ul li, aside nav ul li a {
+    background-color: var(--section-background-color);
+}
+
+aside nav ul {
+    background-color: var(--section-background-color);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 75%;
+
+}
+
+nav {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+/* Sections */
+section {
+    width: 60%;
+    margin: 0% 20% 0% 20%;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-headings {
+    font-size: 32px;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    display: block;
+    margin: 20px;
+}
+
+/* My Work */
+.linear-gradient-background {
+    background-image: linear-gradient(
+        rgb(246, 190, 146) 0%,
+        rgba(243, 79, 243, 0.6) 100%
+    );
+}
+
+.my-work {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.my-work .css-snippets {
+    width: 60%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px dashed white;
+    border-radius: var(--border-radius);
+    padding: 10px;
+}
+
+.my-work div {
+    width: 30%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px dashed white;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    margin: 1%;
+}
+
+.my-work div img {
+    width: 100%;
+}
+#card {
+    border-radius: var(--border-radius);
+    padding: 15px;
+}
+
+.my-work-headings {
+    margin: 0px 0px 10px 0px;
+    background-color: var(--section-background-color);
+    padding: 5px;
+    border-radius: var(--border-radius);
+}
+
+.my-work-headings a {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: var(--section-background-color);
+}
+
+.my-work img {
+    border-radius: var(--border-radius);
+}
+/* About Me */
+.about-me div {
+    width: 100%;
+    border: 2px dashed white;
+    border-radius: var(--border-radius);
+    padding: 10px;
+}
+
+.about-me p {
+    text-align: center;
+    width: auto;
+    padding: 15px;
+    border-radius: var(--border-radius);
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* contact me */
+.contact-me {
+    height: auto;
+}
+
+.contact-me ul li, .contact-me ul li a {
+    background-color: white;
+    color: black;
+}
+
+.contact-me ul{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    list-style: disc;
+    padding: 20px;
+    background-color: white;
+    border-radius: var(--border-radius);
+}
+
+@media screen and (max-width: 600px) {
+    /* header */
+    aside {
+        display: inline-block;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: var(--section-background-color);
+        border: 0px solid var(--section-background-color);
+        align-content: center;
+        justify-content: space-evenly;
+        width: 15%;
+        overflow: hidden;
+        background-color: var(--section-background-color);
+        position: fixed;
+        top: 0; 
+        bottom: 0px;
+    }
+
+    /* my work */
+    .my-work .css-snippets {
+        width: 100%;
+    }
+
+    .my-work div {
+        width: 40%;
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        border: 2px dashed white;
+        border-radius: var(--border-radius);
+        padding: 10px;
+        margin: 1% 0% 0% 0%;
+    }
+    
+    /* contact me */
+    .contact-me ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact-me ul li {
+        margin: 1%;
+    }
+}
