@@ -39,7 +39,7 @@ THEN that application's image should be larger in size than the others          
 WHEN I click on the images of the applications
 THEN I am taken to that deployed application                                                                                                    <!--done-->
 WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+THEN I am presented with a responsive layout that adapts to my viewport                                                                         <!--done-->
 ```
 
 
@@ -56,7 +56,7 @@ This homework is graded based on the following criteria:
 
 ### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the above acceptance criteria. !!!!!!!!!!!!!!!!!!!!!!!!!!!
+* Satisfies all of the above acceptance criteria. !!!!!!!!!!!!!!!!!!!!!!!!!!!                                                                                           <!--done-->
 
 ### Deployment: 32%
 
@@ -70,7 +70,7 @@ This homework is graded based on the following criteria:
 
 ### Application Quality: 15%
 
-* Application resembles the mock-up functionality provided in the homework instructions.                                                                                <!--done but want to make sidebar match demo more-->
+* Application resembles the mock-up functionality provided in the homework instructions.                                                                                <!--done-->
 
 ### Repository Quality: 13%
 
