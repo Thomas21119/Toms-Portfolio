@@ -5,73 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tom's Portfolio</title>
-    <link rel="stylesheet" href="./Assets/reset.css">
-    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="stylesheet" href="./Assets/css/reset.css">
+    <link rel="stylesheet" href="./Assets/css/style.css">
 </head>
 <body>
     <!--Header-->
-    <aside>
+    <header>
         <!--Want to put logo here-->
-        <mark>
-            <h1>Thomas Wittwer</h1>
-            <img src="./Assets/images/AvatarMaker.png" />
-        </mark>
+        <div class="mark">
+            <h1>Thomas Wittwer </h1> 
+            <img src="./Assets/images/AvatarMaker.png" id="avatar" />
+        </div>
+        
         <!--Links-->
         <nav>
             <ul>
-                <li><a href="#my-work">My Work </a></li>
-                <li><a href="#about-me">About Me </a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
+                <li><a href="#myWork" id="myWork">My Work </a></li>
+                <li><a href="#aboutMe" id="aboutMe">About Me </a></li>
+                <li><a href="#contactMe" id="contactMe">Contact Me</a></li>
             </ul>
         </nav>
-    </aside>
+    </header>
     <!--Main body-->
     <main>
-        <h2 class="section-headings" id="my-work">My Work</h2>
-        <section class="my-work"> 
-            <div class="css-snippets">
-                <h3 class="my-work-headings">
-                    <a href="https://thomas21119.github.io/Css-Snippets/" target="_blank">Css-Snippets</a>
-                </h3>
-                <p id="card">Css-Snippets Is The first website i made from scratch, learning how to create many different styles and effects through Css.  
-                    Obviously as a newcomer it's quite the basic site with some links and references for me to come back too if i need to refer back to some of my earlier Work
-                </p>
-                <a href="https://thomas21119.github.io/Css-Snippets/" target="_blank"><img src="./Assets/images/2021-08-29.png" width="100%" /></a>
-            </div>
-            <div>
-                <h3 class="my-work-headings">
-                    <a href="https://thomas21119.github.io/Horiseon/">Horiseon</a>
-                </h3>   
-                <p id="card">Though I didn't make Horiseon from scratch this is the other complete website I have worked on. Whilst working on it I 
-                    debugged some code to make sure all links worked properly and cleaned up the code as there was lots of repeating and unnecesary code, as well as lots of repeat values instead of variables. 
-                </p>
-                <a href="https://thomas21119.github.io/Horiseon/" target="_blank"><img src="./Assets/images/2021-08-20 (2).png" /> </a>
-            </div>
-            <div>
-                <h3 class="my-work-headings">
-                    <a href="https://thomas21119.github.io/Css-Snippets/">Place-holder</a>
-                </h3>   
-                <p id="card">Css-Snippets Is The first website i made from scratch, learning how to create many different styles and effects through Css.
-                </p>
-            </div>
-            <div>
-                <h3 class="my-work-headings">
-                    <a href="https://thomas21119.github.io/Css-Snippets/">Place-holder</a>
-                </h3>   
-                <p id="card">Css-Snippets Is The first website i made from scratch, learning how to create many different styles and effects through Css.
-                </p>
-            </div>
-            <div>
-                <h3 class="my-work-headings">
-                    <a href="https://thomas21119.github.io/Css-Snippets/">Place-holder</a>
-                </h3>   
-                <p id="card">Css-Snippets Is The first website i made from scratch, learning how to create many different styles and effects through Css.
-                </p>
-            </div>
-        </section>
-
-        <section class="about-me" id="about-me">
-            <h2 class="section-headings" id="about-me">About Me</h2>
+        <section class="aboutMe" id="aboutMe">
+            <h2 class="sectionHeadings" id="aboutMe">About Me</h2>
             <div>
                 <p> I'm Tom, located in Victoria Australia and am currently a junior web developer, still in very early days but am making progress towards getting better every day.
                     As of the moment I have made one website from scratch, Css-Snippets. I have done cleaning as well as debugging of code on Horiseon's Websites and am looking to expand my skills.
@@ -79,19 +37,27 @@
                     WakeBoarding, and more. </p> 
             </div>
         </section>
-
-        <section class="contact-me" id="contact-me">
-            <h2 class="section-headings">Contact Me</h2>
+        <section class="contactMe" id="contactMe">
+            <h2 class="sectionHeadings">Contact Me</h2>
             <ul>
                 <li>Github-<a href="https://github.com/Thomas21119" target="_blank">https://github.com/Thomas21119</a></li>
                 <li>Email-<a href="mailto: thomas.wittwer2018@gmail.com" target="_blank">thomas.wittwer2018@gmail.com</a></li>
                 <li>Phone Number-<a href="tel: 0490923053">0490923053</a></li>
             </ul>
         </section>
+        <nav class="hireMe"> 
+            <h2 class="sectionHeadings">Hire Me</h2>
+            <ul>
+                <li> <a href="https://www.linkedin.com/in/thomas-wittwer-530710212/" target="_blank">LinkedIn Profile</a>  </li>
+                <li> <a href="Assets/pdf/Thomas Wittwer CV v3.pdf" target="_blank"> Resume PDF Link</a> </li>
+            </ul>
+        </nav>
     </main>
     <!--Footer-->
     <footer>
 
     </footer>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./Assets/javaScript/script.js"></script>
 </html>
