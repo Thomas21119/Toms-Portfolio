@@ -39,13 +39,13 @@ If you are opting out of career services, this is *still a required assignment*.
 
 Your updated portfolio should:
 
-1. Display your contact information. If you don't want to share your personal email or phone number, use a separate email that you will only use for coding, also known as a developer email, and/or a call forwarding service, such as [Google Voice](https://voice.google.com/).
+<!-- 1. Display your contact information. If you don't want to share your personal email or phone number, use a separate email that you will only use for coding, also known as a developer email, and/or a call forwarding service, such as [Google Voice](https://voice.google.com/). -->
 
-2. Have links to your GitHub profile and LinkedIn profile
+<!-- 2. Have links to your GitHub profile and LinkedIn profile -->
 
-3. Have a link to a downloadable PDF of your resume
+<!-- 3. Have a link to a downloadable PDF of your resume -->
 
-4. Display at least 2 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following:
+<!-- 4. Display at least 2 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following: -->
 
 	* Project title
 
@@ -55,14 +55,14 @@ Your updated portfolio should:
 
 	* Screenshot of the deployed application
 
-5. Have a polished, mobile-responsive user interface.
+<!-- 5. Have a polished, mobile-responsive user interface. -->
 
 ### Design
 
 Unfortunately, this is where it gets a little bit subjective. Your site should look
 "polished." Here are a few guidelines on what that means:
 
-* Mobile-first design
+<!-- * Mobile-first design -->
 
 * Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
 

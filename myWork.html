@@ -13,66 +13,84 @@
     <header>
         <!--Want to put logo here-->
         <div class="mark">
+                <div id="name">
             <h1>Thomas Wittwer </h1> 
-            <img src="./Assets/images/AvatarMaker.png" id="avatar" />
+                </div>
+            <div id="photo">
+                <img src="./Assets/images/AvatarMaker.png" id="avatar" />
+            </div>
         </div>
         
         <!--Links-->
         <nav>
             <ul>
                 <li><a href="#myWork" id="myWork">My Work </a></li>
-                <li><a href="#aboutMe" id="aboutMe">About Me </a></li>
+                <li><a href="#aboutMe" id="myInfo"> My Info </a></li>
                 <li><a href="#contactMe" id="contactMe">Contact Me</a></li>
             </ul>
         </nav>
     </header>
     <h2 class="sectionHeadings" id="myWork">My Work</h2>
     <section> 
-        <div class="card" id="mostRecent">
-            <h3 class="myWorkHeadings">
-                <a href="https://trangthedev.github.io/flightFinder/">Flight Finder</a>
-            </h3>   
-            <p class="websiteDescription"> Flight Finder is the first website i worked on in a calaborative environment. Coming up with an idea from Scratch. We decided to use API's to find flights
-                to various places around the world from any given city as well as convert currencies, find places of interest and calculate group costs
-            </p>
-            <a href="https://trangthedev.github.io/flightFinder/" target="_blank"> <img src="./Assets/images/Flight Finder - Avast Secure Browser 8_10_2021 10_51_16 PM.png"> </a>
+        <div class="topRow">
+            <div class="card" id="mostRecent">
+                <h3 class="myWorkHeadings">
+                    <a href="https://trangthedev.github.io/flightFinder/">Flight Finder</a>
+                </h3>   
+                <p class="websiteDescription"> Flight Finder is the first website i worked on in a calaborative environment. Coming up with an idea from Scratch. We decided to use API's to find flights
+                    to various places around the world from any given city as well as convert currencies, find places of interest and calculate group costs
+                </p>
+                <p> Click Photo to go to live application </p>
+                <a href="https://trangthedev.github.io/flightFinder/" target="_blank"> <img src="./Assets/images/Flight Finder - Avast Secure Browser 8_10_2021 10_51_16 PM.png"> </a>
+                <a target="_blank" href="https://github.com/TrangTheDev/flightFinder"> <h4> Github Repository </h4> </a>
+            </div>
+            <div class="card">
+                <h3 class="myWorkHeadings">
+                    <a href="https://thomas21119.github.io/Horiseon/">Horiseon</a>
+                </h3>   
+                <p class="websiteDescription">Though I didn't make Horiseon from scratch this is the other complete website I have worked on. Whilst working on it I 
+                    debugged some code to make sure all links worked properly and cleaned up the code as there was lots of repeating and unnecesary code, as well as lots of repeat values instead of variables. 
+                </p>
+                <p> Click Photo to go to live application </p>
+                <a href="https://thomas21119.github.io/Horiseon/" target="_blank"><img src="./Assets/images/Horiseon - Avast Secure Browser 10_10_2021 3_27_01 PM.png" /> </a>
+                <a href="https://thomas21119.github.io/Horiseon/" target="_blank"><img src="./Assets/images/Horiseon - Avast Secure Browser 10_10_2021 3_27_27 PM.png" /> </a>
+                <a target="_blank" href="https://github.com/Thomas21119/Horiseon"> <h4> Github Repository </h4> </a>
+            </div>
         </div>
-        <div class="card">
-            <h3 class="myWorkHeadings">
-                <a href="https://thomas21119.github.io/Weather-OutLook/">Weather Outlook</a>
-            </h3>   
-            <p class="websiteDescription">Weather Outlook by city was my first time working with API's and i was lucky enough to be given a reliable one to work with, finding weather at current and future dates
-                for any given city around the world.
-            </p>
-            <a href="https://thomas21119.github.io/Weather-OutLook/" target="_blank"> <img src="./Assets/images/Weather - Avast Secure Browser 8_10_2021 10_55_40 PM.png"</a>
-        </h3>   
-        </div>
-        <div class="card">
-            <h3 class="myWorkHeadings">
-                <a href="https://thomas21119.github.io/Password-Generator/">Password Generator</a>
-            </h3>   
-            <p class="websiteDescription">I found the Password-Generator to be particularly challenging at first attempt, working with new javaScript code and it was all incredibly intriguing
-                especially the randomise function
-            </p>
-            <a href="https://thomas21119.github.io/Password-Generator/" target="_blank" > <img src="./Assets/images/Weather - Avast Secure Browser 8_10_2021 10_57_27 PM.png" /></a>
-        </div>
-        <div class="card">
-            <h3 class="myWorkHeadings">
-                <a href="https://thomas21119.github.io/Css-Snippets/" target="_blank">Css-Snippets</a>
-            </h3>
-            <p class="websiteDescription">Css-Snippets Is The first website i made from scratch, learning how to create many different styles and effects through Css.  
-                Obviously as a newcomer it's quite the basic site with some links and references for me to come back too if i need to refer back to some of my earlier Work
-            </p>
-            <a href="https://thomas21119.github.io/Css-Snippets/" target="_blank"><img src="./Assets/images/2021-08-29.png" width="100%" /></a>
-        </div>
-        <div class="card">
-            <h3 class="myWorkHeadings">
-                <a href="https://thomas21119.github.io/Horiseon/">Horiseon</a>
-            </h3>   
-            <p class="websiteDescription">Though I didn't make Horiseon from scratch this is the other complete website I have worked on. Whilst working on it I 
-                debugged some code to make sure all links worked properly and cleaned up the code as there was lots of repeating and unnecesary code, as well as lots of repeat values instead of variables. 
-            </p>
-            <a href="https://thomas21119.github.io/Horiseon/" target="_blank"><img src="./Assets/images/2021-08-20 (2).png" /> </a>
+        <div class="bottomRow">
+            <div class="card">
+                <h3 class="myWorkHeadings">
+                    <a href="https://thomas21119.github.io/Password-Generator/">Password Generator</a>
+                </h3>   
+                <p class="websiteDescription">I found the Password-Generator to be particularly challenging at first attempt, working with new javaScript code and it was all incredibly intriguing
+                    especially the randomise function
+                </p>
+                <p> Click Photo to go to live application </p>
+                <a href="https://thomas21119.github.io/Password-Generator/" target="_blank" > <img src="./Assets/images/Weather - Avast Secure Browser 8_10_2021 10_57_27 PM.png" /> </a>
+                <a target="_blank" href="https://github.com/Thomas21119/Password-Generator"> <h4> Github Repository </h4> </a>
+            </div>
+            <div class="card">
+                <h3 class="myWorkHeadings">
+                    <a href="https://thomas21119.github.io/Css-Snippets/" target="_blank">Css-Snippets</a>
+                </h3>
+                <p class="websiteDescription">Css-Snippets Is The first website i made from scratch, learning how to create many different styles and effects through Css.  
+                    Obviously as a newcomer it's quite the basic site with some links and references for me to come back too if i need to refer back to some of my earlier Work
+                </p>
+                <p> Click Photo to go to live application </p>
+                <a href="https://thomas21119.github.io/Css-Snippets/" target="_blank"><img src="./Assets/images/2021-08-29.png" width="100%" /> </a>
+                <a target="_blank" href="https://github.com/Thomas21119/Css-Snippets"> <h4> Github Repository </h4> </a>
+            </div>
+            <div class="card">
+                <h3 class="myWorkHeadings">
+                    <a href="https://thomas21119.github.io/Weather-OutLook/">Weather Outlook</a>
+                </h3>   
+                <p class="websiteDescription">Weather Outlook by city was my first time working with API's and i was lucky enough to be given a reliable one to work with, finding weather at current and future dates
+                    for any given city around the world.
+                </p>
+                <p> Click Photo to go to live application </p>
+                <a href="https://thomas21119.github.io/Weather-OutLook/" target="_blank"> <img src="./Assets/images/Weather - Avast Secure Browser 8_10_2021 10_55_40 PM.png" /> </a>
+                <a target="_blank" href="https://github.com/Thomas21119/Weather-OutLook"> <h4> Github Repository </h4> </a>
+            </div>
         </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

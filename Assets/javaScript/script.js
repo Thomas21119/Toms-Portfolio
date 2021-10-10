@@ -1,5 +1,5 @@
 var $myWork = $('#myWork')
-var $aboutMe = $('#aboutMe')
+var $aboutMe = $('#myInfo')
 var $contactMe = $('#contactMe')
 
 
