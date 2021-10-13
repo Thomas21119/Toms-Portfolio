@@ -66,7 +66,7 @@ Unfortunately, this is where it gets a little bit subjective. Your site should l
 
 * Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
 
-* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
+<!-- * Make sure the font size is large enough to read, and that the colors don't cause eye strain. -->
 
 ## Updated GitHub Profile 
 
@@ -76,15 +76,15 @@ Your GitHub profile must contain at least the following items:
 
 1. Profile picture or avatar
 
-  * A photo or an avatar other than the default Github identicon. (a semi-professional to professional photo or an avatar photo are preferred)
+  <!-- * A photo or an avatar other than the default Github identicon. (a semi-professional to professional photo or an avatar photo are preferred) -->
 
-2. Biography
+<!-- 2. Biography -->
 
-3. Email address. If you don't want to share your personal email or phone number, use a developer email.
+<!-- 3. Email address. If you don't want to share your personal email or phone number, use a developer email. -->
 
-4. Link to your deployed portfolio
+<!-- 4. Link to your deployed portfolio -->
 
-5. At least 2 pinned repositories:
+<!-- 5. At least 2 pinned repositories: -->
 
 	* Navigate to [GitHub](https://github.com/) and go to your profile.
 
@@ -110,7 +110,7 @@ Your GitHub profile must contain at least the following items:
 	
 	* Contact information for you and any collaborators
 
-8. Commit history. Every pinned repository should have at least 20 commits.
+<!-- 8. Commit history. Every pinned repository should have at least 20 commits. -->
 
 ## Updated Resume 
 
