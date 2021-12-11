@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: lightskyblue;
+  background-color: #81a4cd;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -85,20 +85,27 @@ header li {
   display: flex;
   align-items: center;
   font-size: large;
-  background-color: violet;
+  background-color: #f17300;
   padding: 5px;
   border-radius: var(--borderRadius);
-  border: none;
-  color: white;
+  border: 2px solid black;
   height: 30px;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 0 #f9e506;
   transition: ease-out 0.3s;
 }
 
 header li:hover {
-  box-shadow: inset 300px 0 0 0 #f9e506;
-  color: #000;
+  background-color: #054a91;
+}
+
+header li a {
+  color: #054a91;
+  font-weight: 600;
+  transition: ease-out 0.3s;
+}
+
+header li:hover a {
+  color: #f17300;
 }
 
 section {
@@ -121,6 +128,32 @@ section {
   margin: 2% auto;
   text-decoration: underline;
   width: 100%;
+}
+
+.contactMe ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  height: 20vh;
+}
+
+.contactMe li {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  display: flex;
+}
+
+.contactMe a {
+  background-color: #dbe4ee;
+  padding: 1.5%;
+  border: 2px solid black;
+  border-radius: var(--borderRadius);
+  color: black;
 }
 
 main p {
@@ -151,26 +184,33 @@ p {
 .hireMe ul li {
   text-align: center;
   font-size: large;
-  background-color: violet;
+  background-color: #f17300;
   padding: 5px;
   border-radius: var(--borderRadius);
   border: none;
-  color: white;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 0 #f9e506;
   transition: ease-out 0.3s;
   margin: 0 5%;
+  border: 2px solid black;
+}
+
+.hireMe ul li a {
+  color: #054a91;
+  font-weight: 600;
 }
 
 .hireMe ul li:hover {
-  box-shadow: inset 300px 0 0 0 #f9e506;
-  color: #000;
+  background-color: #054a91;
+}
+
+.hireMe ul li:hover a {
+  color: #f17300;
 }
 
 /* MyWork Page */
 
 .card {
-  border: 2px dashed white;
+  border: 2px dashed black;
   margin: 5% auto;
   padding: 5%;
   border-radius: var(--borderRadius);
@@ -182,9 +222,23 @@ p {
   font-size: x-large;
   margin: 3% auto;
   justify-content: center;
-  background-color: blue;
+  background-color: #054a91;
   padding: 2% 0;
   border-radius: var(--borderRadius);
+  transition: ease-out 0.3s;
+  border: 2px solid black;
+}
+
+.myWorkHeadings a {
+  color: #dbe4ee;
+}
+
+.myWorkHeadings:hover {
+  background-color: #dbe4ee;
+}
+
+.myWorkHeadings:hover a {
+  color: #054a91;
 }
 
 #images {
@@ -201,19 +255,14 @@ p {
 
 .websiteDescription {
   padding: 4%;
-  background-image: linear-gradient(
-    rgb(153, 0, 255) 0%,
-    rgb(231, 102, 236) 100%
-  );
+  background-image: linear-gradient(#054a91 0%, #589ad4 100%);
   margin: 4% auto;
   border-radius: var(--borderRadius);
+  border: 2px solid black;
   line-height: 20px;
   text-align: center;
   font-size: large;
-}
-
-.myWorkHeadings a {
-  text-align: center;
+  width: 92%;
   color: white;
 }
 
@@ -299,6 +348,16 @@ a img:hover {
     margin: 2% auto;
     justify-content: space-evenly;
   }
+
+  .contactMe a {
+    background-color: #dbe4ee;
+    padding: 1%;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: var(--borderRadius);
+    color: black;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -319,5 +378,15 @@ a img:hover {
     width: 90%;
     margin: 1% auto;
     justify-content: space-evenly;
+  }
+
+  .contactMe a {
+    background-color: #dbe4ee;
+    padding: 0.5%;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: var(--borderRadius);
+    color: black;
+    margin: 0 auto;
   }
 }
